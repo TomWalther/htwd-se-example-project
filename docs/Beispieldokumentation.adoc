@@ -7,3 +7,5 @@ Tom Walther <tom.walther2@stud.htw-dresden.de>
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
+
+Wiederholung am 12.11.2023
