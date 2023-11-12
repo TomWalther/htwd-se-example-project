@@ -3,6 +3,9 @@ Tom Walther <tom.walther2@stud.htw-dresden.de>
 1.0, 12.10.2023 
 :toc: 
 :toc-title: Inhaltsverzeichnis
+:source-highlighter: rouge
+:imagesdir: images
+
 // Platzhalter für weitere Dokumenten-Attribute 
 
 == Einführung
@@ -27,3 +30,55 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 2. Electrons
 3. Neutrons
 
+=== Tabellen und Textformatierung 1
+
+[cols="1,1,1"]
+|===
+|*Formatierung*|*Syntax*|*Beschreibung* 
+|*bold* | \*bold* | fetter text
+|_italic_ | \_italic_ | kursiver Text
+|`monospace`|\`monospace`| Text mit fester Laufweite
+|*_bolditalic_*|\*_bolditalic_*| Text mit kombinierter Formatierung
+|**bold**__italic__|\**bold**__italic__|Text mit Formatierung innerhalb des Wortes
+|===
+
+=== Tabellen und Textformatierung 2
+[cols="1,1,1"]
+|===
+|*Formatierung*|*Syntax*|*Beschreibung*
+|#mark#|\#mark#|makierter Text
+|[.underline]#underline#|[.underline]\#underline#|unterstrichener Text
+|[.line-through]#strikethrough#|[.line-through]\#strikethrough#|durchgestrichener Text
+|[.small]#small#|[.small]\#small#|kleiner Text
+|[.big]#big#|[.big]\#big#|großer Text
+|^super^script|\^super^script|hochgestellt
+|~sub~script|\~sub~script|tiefgestellt
+|===
+
+=== Tabellen und Textformatierung 3 
+[cols="1,1,1"]
+|===
+|*Formatierung*|*Syntax*|*Beschreibung* 
+|`|\```|Backtick als _inline code_ maskiert
+|`text`|`pass:[`text`]`,\``text``,`++`text`++`|Backticks-Bereih als _inline code_ maskiert
+|===
+
+Formatierungsübung: **S**__o__ftw__a__r__e__ **__E__**ng__e__n__e____e__``#ring#``
+
+=== Quellcode
+
+hello_world.c
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+    printf("Hello, World!\n");
+    return 0;
+}
+
+=== Bilder 
+
+Mein erstes Bild:
+
+image::TestBild1.png[TestBild1, title="Mein TestBild"]
