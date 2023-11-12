@@ -1,6 +1,6 @@
 = Beispiel-Dokumentation mit AsciiDoc 
 Tom Walther <tom.walther2@stud.htw-dresden.de> 
-1.0, 12.10.2023 
+1.5, 12.11.2023 
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: rouge
@@ -81,4 +81,4 @@ int main(int argc, char* argv[])
 
 Mein erstes Bild:
 
-image::TestBild1.png[TestBild1, title="Mein TestBild"]
+image::TestBild1.png[TestBild1, title="Mein TestBild"] 
